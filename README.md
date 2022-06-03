@@ -74,3 +74,38 @@ python emotions.py --mode display
    X Wang, D Athanasakis, J Shawe-Taylor, M Milakov, J Park, R Ionescu,
    M Popescu, C Grozea, J Bergstra, J Xie, L Romaszko, B Xu, Z Chuang, and
    Y. Bengio. arXiv 2013.
+
+
+
+
+
+Source of Dataset-
+For Face Detection and Recognition, the custom dataset is used.
+For Compound Facial Emotion Detection, CASMEII and FER2013 is used.
+CASMEII - 
+FER2013 - https://www.kaggle.com/datasets/rkuo2000/fer2013
+
+Software Requirements-
+ Python 3.6
+ Torch 1.11
+ CUDA Toolkit 11.3
+ Tensorflow 2.x (GPU Version)
+ Keras 2.4.x
+ Opencv-python 4.1.2
+ Scipy 1.4.1
+ Pandas 1.1.4
+ Scikit-learn 0.19.2
+ SQLite
+ Roboflow
+
+Hardware Requirements-
+NVIDIA GPU with CUDA compute capability 3.5 or higher
+Webcam
+
+Detailed Instructions to execute the source code-
+Download the source code to your computer.
+The source code folder contains all datasets and executable file.
+Before executing the source file, check if the system meets every software and hardware requirements.
+Open the terminal, and direct it to the detect.py path
+Execute the following command, python detect.py --weights D:\PRoj\yolov3-master\yolov3-master\best.pt --img 416 --conf 0.1 --source 0
+Instead of D:\PRoj\ path, correct the path where you downloaded and extracted the source code.
